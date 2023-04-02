@@ -10,7 +10,8 @@ downloads the latest artifact from one or many Jenkins jobs
 3. [When should I use this?](#when-should-i-use-this)
 4. [When shouldn't I use this?](#when-shouldnt-i-use-this)
 5. [How to use](#how-to-use)
-6. [Attribution](#attribution)
+6. [Contributing](#contributing)
+7. [Attribution](#attribution)
 
 ## What does this mean?
 Jenkins is a CI (continuous integration) tool. One of its many
