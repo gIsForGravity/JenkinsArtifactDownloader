@@ -1,4 +1,4 @@
-package co.tantleffbeef.jenkinsartifactdownloader
+package io.github.gisforgravity.jenkinsartifactdownloader
 
 import com.offbytwo.jenkins.model.Artifact
 import com.offbytwo.jenkins.model.BuildWithDetails

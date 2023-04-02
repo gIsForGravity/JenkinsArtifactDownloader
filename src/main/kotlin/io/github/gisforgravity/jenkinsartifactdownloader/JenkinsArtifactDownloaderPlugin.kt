@@ -1,4 +1,4 @@
-package co.tantleffbeef.jenkinsartifactdownloader
+package io.github.gisforgravity.jenkinsartifactdownloader
 
 import com.offbytwo.jenkins.JenkinsServer
 import net.md_5.bungee.api.ChatColor
