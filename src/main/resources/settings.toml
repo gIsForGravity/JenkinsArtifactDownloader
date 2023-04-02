@@ -1,0 +1,6 @@
+[servers]
+# server_name = "server url"
+
+[jobs]
+# artifact_file_name is optional if there is only one artifact
+# job_name = { server = "server_name", artifact_file_name = "file name.jar" }

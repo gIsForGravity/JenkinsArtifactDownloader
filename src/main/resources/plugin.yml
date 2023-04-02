@@ -1,0 +1,11 @@
+name: JADL
+main: co.tantleffbeef.jenkinsartifactdownloader.JenkinsArtifactDownloaderPlugin
+version: 0.0.0
+api-version: 1.19
+load: STARTUP
+authors: [gIsForGravity, Finnerex]
+
+libraries:
+  - "com.offbytwo.jenkins:jenkins-client:0.3.8"
+  - "org.tomlj:tomlj:1.1.0"
+  - "org.jetbrains.kotlin:kotlin-stdlib:1.8.10"
