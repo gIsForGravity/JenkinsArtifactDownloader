@@ -15,6 +15,7 @@ import java.nio.file.Files
 import java.nio.file.Path
 import java.util.function.Consumer
 import java.util.logging.Level
+import kotlin.system.exitProcess
 
 class JenkinsArtifactDownloaderPlugin : JavaPlugin() {
     private val servers: MutableMap<String, JenkinsServer> = HashMap()
@@ -28,7 +29,8 @@ class JenkinsArtifactDownloaderPlugin : JavaPlugin() {
             // check if any builds need updating and update them
             if (updateBuilds()) {
                 printInfo("an artifact was updated. server requires restart")
-                server.shutdown()
+                // server.shutdown()
+                exitProcess(0)
             }
         } catch (e: Exception) {
             throw RuntimeException(e)
